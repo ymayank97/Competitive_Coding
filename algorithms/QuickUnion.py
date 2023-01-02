@@ -21,3 +21,8 @@ class QuickUnion:
         qroot = self.root(q)
 
         self.id[proot] = qroot
+
+
+obj = QuickUnion(10)
+obj.union(4,6)
+print(obj.id)
